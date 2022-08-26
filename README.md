@@ -33,7 +33,7 @@ Follow the process described in the course to `eb init` a new application and `e
 
 # link to deployed server
 
-[link](http://aws-instagram-dev.us-east-1.elasticbeanstalk.com/)
+click here =>[link](http://aws-instagram-dev.us-east-1.elasticbeanstalk.com/)
 
 example
 http://aws-instagram-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://picsum.photos/id/237/200/300
