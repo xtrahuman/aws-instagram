@@ -43,7 +43,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     if(!image_url){
       return res.status(400).send("check url try GET /filteredimage?image_url={{}}")
     }
-    let file: string = await filterImageFromURL("https://picsum.photos/id/237/200/300")
+    let file: string = await filterImageFromURL(image_url)
    return res.status(200).sendFile(file, () => {
      deleteLocalFiles([file])
    })
